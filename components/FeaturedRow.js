@@ -33,7 +33,7 @@ const FeaturedRow = ({id, title, description}) => {
                 address=""
                 short_description=""
                 dishes=""
-                long=""
+                long="" 
                 lat=""
             />
         </ScrollView>
