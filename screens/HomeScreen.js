@@ -26,7 +26,7 @@ const HomeScreen = () => {
         <View className='flex-row pb-3 items-center mx-4 space-x-2'>
             <Image 
                 source={require('../assets/one.png')}
-                className='h-10 w-10 bg-white-300 p-6 '
+                className='h-10 w-10 bg-white-300 p-6 rounded-full'
             />
             <View className='flex-1'>
                 <Text className='font-bold text-gray-400 text-xs'>
