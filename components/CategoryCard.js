@@ -9,7 +9,7 @@ const CategoryCard = ({imgUrl, title}) => {
         }} 
         className="h-20 w-20 rounded"
         />
-        <Text className="absolute bottom-1 left-1">{title}</Text>
+        <Text className="absolute bottom-1 left-0 text-white bg-black px-1 transform scale-100 -rotate-6" >{title}</Text>
     </TouchableOpacity>
   )
 }
